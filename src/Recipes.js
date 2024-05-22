@@ -30,7 +30,7 @@ export default function Recipes() {
         }
     ]);
 
-    const [clickedItem, setClickedItem] = useState([]);
+    // const [clickedItem, setClickedItem] = useState([]);
 
     const handleClickItem = (data) => {
         // setClickedItem([...clickedItem, data.name]);
@@ -41,7 +41,7 @@ export default function Recipes() {
             <div>
                 <h1 className="m-4">Recipes Lists</h1>
                 <ul className="grid grid-cols-4 grid-flow-col gap-4">
-                    {recipesList.map((item, index) => (
+                    {recipesList?.map((item, index) => (
                         <div className=" max-w-xs rounded-lg overflow-hidden shadow-xl cursor-pointer transition-all duration-500 hover:scale-[1.02]">
                             <div className="w-full h-[300px]">
                             
