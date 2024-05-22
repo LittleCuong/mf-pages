@@ -4,7 +4,8 @@ const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3003/",
+    // publicPath: "http://localhost:3003/",
+    publicPath: "https://main.d2y7ztxbftcgjk.amplifyapp.com/",
     uniqueName: 'my-package-pages',
   },
 
