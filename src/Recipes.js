@@ -8,25 +8,25 @@ export default function Recipes() {
             id: 1,
             name: "Ratatouille",
             author: "Cuong Nguyen",
-            image: '/images/ratatoulie.jpg'
+            image: 'images/ratatoulie.jpg'
         },
         {
             id: 2,
             name: "Super Instant Noodle",
             author: "Cuong Nguyen",
-            image: "/images/noodles.jpg"
+            image: "images/noodles.jpg"
         },
         {
             id: 3,
             name: "Galaxy Fried Eggs",
             author: "Cuong Nguyen",
-            image: "/images/fried-egg.jpg"
+            image: "images/fried-egg.jpg"
         },
         {
             id: 4,
             name: "Boiled Chicken Breast",
             author: "Cuong Nguyen",
-            image: "/images/boiled-chicken.jpg"
+            image: "images/boiled-chicken.jpg"
         }
     ]);
 
