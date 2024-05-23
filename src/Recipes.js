@@ -46,8 +46,7 @@ export default function Recipes() {
                             <div className="w-full h-[300px]">
                             
                                 {/* <img className="w-full h-full object-cover" src={`http://localhost:3003/${item.image}`} alt="Food" /> */}
-                                {/* <img className="w-full h-full object-cover" src={`https://main.d2y7ztxbftcgjk.amplifyapp.com/${item.image}`} alt="Food" /> */}
-                                <img className="w-full h-full object-cover" src={item.image} alt="Food" />
+                                <img className="w-full h-full object-cover" src={`https://main.d2y7ztxbftcgjk.amplifyapp.com/${item.image}`} alt="Food" />
                             </div>
                             <div className="px-4 py-4">
                                 <div className="font-bold text-xl mb-2">Chef: {item.author}</div>
