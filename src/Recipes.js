@@ -8,7 +8,7 @@ export default function Recipes() {
             id: 1,
             name: "Ratatouille",
             author: "Cuong Nguyen",
-            image: 'https://ap-southeast-1.console.aws.amazon.com/s3/object/cuongbuckettutorial?region=ap-southeast-1&bucketType=general&prefix=ratatoulie.jpg'
+            image: 'https://cuongbuckettutorial.s3.ap-southeast-1.amazonaws.com/ratatoulie.jpg'
         },
         {
             id: 2,
