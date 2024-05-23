@@ -8,25 +8,25 @@ export default function Recipes() {
             id: 1,
             name: "Ratatouille",
             author: "Cuong Nguyen",
-            image: 'images/ratatoulie.jpg'
+            image: 'https://ap-southeast-1.console.aws.amazon.com/s3/object/cuongbuckettutorial?region=ap-southeast-1&bucketType=general&prefix=ratatoulie.jpg'
         },
         {
             id: 2,
             name: "Super Instant Noodle",
             author: "Cuong Nguyen",
-            image: "images/noodles.jpg"
+            image: "https://cuongbuckettutorial.s3.ap-southeast-1.amazonaws.com/noodles.jpg"
         },
         {
             id: 3,
             name: "Galaxy Fried Eggs",
             author: "Cuong Nguyen",
-            image: "images/fried-egg.jpg"
+            image: "https://cuongbuckettutorial.s3.ap-southeast-1.amazonaws.com/fried-egg.jpg"
         },
         {
             id: 4,
             name: "Boiled Chicken Breast",
             author: "Cuong Nguyen",
-            image: "images/boiled-chicken.jpg"
+            image: "https://cuongbuckettutorial.s3.ap-southeast-1.amazonaws.com/boiled-chicken.jpg"
         }
     ]);
 
@@ -46,7 +46,7 @@ export default function Recipes() {
                             <div className="w-full h-[300px]">
                             
                                 {/* <img className="w-full h-full object-cover" src={`http://localhost:3003/${item.image}`} alt="Food" /> */}
-                                <img className="w-full h-full object-cover" src={`https://main.d2y7ztxbftcgjk.amplifyapp.com/public/${item.image}`} alt="Food" />
+                                <img className="w-full h-full object-cover" src={item.image} alt="Food" />
                             </div>
                             <div className="px-4 py-4">
                                 <div className="font-bold text-xl mb-2">Chef: {item.author}</div>
